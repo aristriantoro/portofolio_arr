@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aris Triantoro – Web Developer & Desainer UI/UX</title>
+  <meta name="description" content="Jasa pembuatan situs web (HTML, CSS, PHP) dan desain UI/UX aplikasi.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a href="#atas" class="logo">Aris Triantoro<span>.</span></a>
+    <nav id="menu" aria-label="Navigasi utama">
+      <a href="#layanan">Layanan</a>
+      <a href="#tentang">Tentang</a>
+      <a href="#proyek">Proyek</a>
+      <a href="#kontak" class="nav-cta">Hubungi saya</a>
+    </nav>
+    <button id="burger" class="burger" aria-label="Buka menu" aria-expanded="false">☰</button>
+  </header>
+
+  <main id="atas">
+    <section class="hero">
+      <div class="hero-isi">
+        <div class="hero-teks">
+          <p class="status"><span class="dot"></span> Menerima proyek freelance</p>
+          <h1>Saya membuat situs web dan desain UI/UX yang rapi dan mudah dipakai.</h1>
+          <p class="lead">Halo, saya Nama Anda. Saya mengerjakan pembuatan situs web dengan HTML, CSS, dan PHP, serta desain UI/UX untuk aplikasi. Contoh karya saya: situs web wisata dan desain aplikasi pelaporan bencana.</p>
+          <div class="cta">
+            <a href="#proyek" class="btn coral">Lihat proyek saya</a>
+            <a href="#kontak" class="btn garis">Hubungi saya</a>
+          </div>
+        </div>
+        <figure class="foto">
+          <div class="busur">
+            <img src="/Image/foto.jpeg" alt="Foto Nama Anda" width="400" height="500">
+            <div class="foto-kosong" hidden>Foto <b>foto.jpg</b></div>
+          </div>
+          <span class="stiker s1">UI/UX</span>
+          <span class="stiker s2">PHP</span>
+        </figure>
+      </div>
+    </section>
+
+    <section id="layanan" class="section">
+      <h2>Yang bisa saya kerjakan</h2>
+      <div class="layanan">
+        <article class="kartu teal">
+          <h3>Pembuatan situs web</h3>
+          <p>Situs yang rapi, responsif, dan mudah dikelola, dibangun dengan HTML, CSS, dan PHP.</p>
+          <ul><li>HTML</li><li>CSS</li><li>PHP</li></ul>
+        </article>
+        <article class="kartu coral-bg">
+          <h3>Desain UI/UX</h3>
+          <p>Rancangan tampilan aplikasi yang jelas alurnya, sehingga pengguna tidak bingung.</p>
+          <ul><li>UI Design</li><li>UX Design</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="tentang" class="section about">
+      <h2>Tentang saya</h2>
+      <div class="about-grid">
+        <div class="prose">
+          <p>Saya masih pemula dan sedang mendalami pembuatan web serta desain UI/UX. Saya tertarik pada tampilan yang membantu orang menyelesaikan sesuatu dengan cepat, misalnya melaporkan bencana saat keadaan genting.</p>
+          <p>Saya belum punya pengalaman kerja, tetapi dua proyek di bawah ini saya kerjakan dari awal sampai selesai.</p>
+        </div>
+        <dl class="facts">
+          <div><dt>Fokus</dt><dd>Web & UI/UX</dd></div>
+          <div><dt>Proyek</dt><dd>2</dd></div>
+          <div><dt>Status</dt><dd>Terus belajar</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section id="proyek" class="section">
+      <h2>Proyek pilihan</h2>
+
+      <article class="karya">
+        <div class="panggung p1">
+          <div class="browser">
+            <div class="bar"><i></i><i></i><i></i></div>
+            <div class="layar">
+              <div class="matahari"></div>
+              <div class="gunung g1"></div>
+              <div class="gunung g2"></div>
+              <div class="laut"></div>
+              <div class="judul-palsu"><b></b><b></b><em>Jelajahi</em></div>
+            </div>
+          </div>
+        </div>
+        <div class="karya-teks">
+          <p class="jenis">Situs web</p>
+          <h3>Situs Web Wisata</h3>
+          <p>Situs yang memperkenalkan destinasi wisata, lengkap dengan informasi tempat dan galeri foto.</p>
+          <ul class="tags"><li>HTML</li><li>CSS</li><li>PHP</li></ul>
+        </div>
+      </article>
+
+      <article class="karya balik">
+        <div class="panggung p2">
+          <div class="hp">
+            <div class="peta"><span class="pin"></span></div>
+            <div class="lapor"><b></b><b></b><em>Laporkan</em></div>
+          </div>
+        </div>
+        <div class="karya-teks">
+          <p class="jenis">Desain UI/UX</p>
+          <h3>UI/UX Aplikasi Laporan Bencana</h3>
+          <p>Rancangan aplikasi agar warga bisa melaporkan bencana dengan cepat: lokasi, jenis kejadian, dan foto.</p>
+          <ul class="tags"><li>UI Design</li><li>UX Design</li></ul>
+        </div>
+      </article>
+    </section>
+
+    <section id="kontak" class="kontak">
+      <div class="kontak-isi">
+        <div>
+          <h2>Mari bicara</h2>
+          <p class="lead">Punya pertanyaan, saran, atau ingin berkolaborasi? Kirim pesan.</p>
+          <ul class="links">
+            <li><a href="mailto:aris_triantoro@teknorat.ac.id">aris_triantoro@teknorat.ac.id</a></li>
+            <li><a href="https://github.com/aristriantoro?tab=repositories" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://instagram.com/flooarr" target="_blank" rel="noopener">Instagram</a></li>
+          </ul>
+        </div>
+        <form id="form" novalidate>
+          <label>Nama <input type="text" name="nama" autocomplete="name" required></label>
+          <label>Email <input type="email" name="email" autocomplete="email" required></label>
+          <label>Pesan <textarea name="pesan" rows="4" required></textarea></label>
+          <p id="pesan-status" role="status" aria-live="polite"></p>
+          <button type="submit" class="btn coral">Kirim pesan</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>© <span id="tahun"></span> Aris Triantoro.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
